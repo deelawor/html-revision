@@ -1,0 +1,98 @@
+/*fonts + box spacing*/
+.font-poppins {
+    font-family: "Poppins", "Arial", "Helvetica Neue", sans-serif;
+  }
+
+  .p-t-180 {
+    padding-top: 180px;
+  }
+ 
+  .p-b-100 {
+    padding-bottom: 185px;
+  }
+
+/*Type='button*/
+  button {
+    outline: none;
+    background: none;
+    border: none;
+  }
+ /*--------------------------Id='button-----------------------------------*/
+#button{
+    display: inline-block;
+    line-height: 25px;
+    padding: 0 50px;
+    font-family: Poppins, Arial, "Helvetica Neue", sans-serif;
+    cursor: pointer;
+    color: #fff;
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    font-size: 18px;
+  }
+#button{
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+  }
+ #button{
+    background: #eec0c0fd; 
+  }
+  
+  /*--------------------Username input box------------*/
+#username{
+    display: inline-block;
+    line-height: 25px;
+    padding: 0 10px;
+    font-family: Poppins, Arial, "Helvetica Neue", sans-serif;
+    cursor: text;
+   
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    font-size: 18px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}
+
+/*-------------------------Password input box-------------------*/
+#password{
+    display: inline-block;
+    line-height: 25px;
+    padding: 0 10px;
+    font-family: Poppins, Arial, "Helvetica Neue", sans-serif;
+    cursor: text;
+    
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    font-size: 18px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+  }
+
+  /*Text boxes position*/
+.box{
+   position: relative;
+   opacity: 0.6
+}
+   
+/*-------------Title css of the logIN page---------*/
+.title {
+   font-size: 24px;
+   color: #fff;
+   font-weight: 400;
+   margin-bottom: 36px;
+  }
+ 
+  /*--------Makes the title, textboxes and button move to where they are--------*/
+.card-3 .card-body {
+  position: absolute;
+  left:850px;
+  }
+
